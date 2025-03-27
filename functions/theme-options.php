@@ -146,7 +146,7 @@ Kirki::add_field( 'dashwall_theme', array(
 	'label'			=> esc_html__( 'Highlight Post Count', 'dashwall' ),
 	'description'	=> esc_html__( 'Max number of highlight posts to display. Set it to 0 to disable.', 'dashwall' ),
 	'section'		=> 'blog',
-	'default'		=> '6',
+	'default'		=> '5',
 	'choices'     => array(
 		'min'	=> '0',
 		'max'	=> '12',
