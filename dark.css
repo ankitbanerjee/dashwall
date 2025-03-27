@@ -147,9 +147,6 @@ body:where(.dark) .widget_calendar td { border: 1px solid rgba(255,255,255,0.12)
 body:where(.dark) .alx-tabs-nav { background: #3b404d; box-shadow: none; }
 body:where(.dark) .alx-tabs-nav li a { color: rgba(255,255,255,0.6); }
 body:where(.dark) .alx-tabs-nav li a:hover { color: #fff; }
-body:where(.dark) .alx-tabs-nav li.active a {  }
-body:where(.dark) .alx-tab .tab-item-category a,
-body:where(.dark) .alx-posts .post-item-category a { color: rgba(255,255,255,0.6); }
 
 /* menu styling */
 body:where(.dark) .menu-toggle-icon span { background: #fff; }
