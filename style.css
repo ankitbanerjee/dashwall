@@ -636,7 +636,7 @@ body.error404 .page-inner-container { max-width: 1070px; }
 .comments-card-thumb i { margin-top: 26px; }
 .comments-card-thumb img { display: block; }
 .comments-card-author { color: #fff; font-weight: 600; font-size: 18px; }
-.comments-card-excerpt { font-size: 14px; }
+.comments-card-excerpt { font-size: 14px; line-height: 1.4; }
 
 .page-card-profile { background: linear-gradient(90deg, #00c196 0%, #1b6da0 100%)!important; }
 .page-card-profile .stickywrap-heading { color: #fff; }

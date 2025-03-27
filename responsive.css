@@ -104,6 +104,9 @@
 	.featured-card-author,
 	.featured-card-divider { display: none; }
 	
+	.comments-card-author { font-size: 15px; }
+	.comments-card-excerpt { font-size: 12px; }
+	
 	.header-single-thumb { height: 200px; }
 	.header-single-title { font-size: 22px; }
 	
@@ -113,7 +116,8 @@
 	
 	#footer { margin: 0; }
 	#footer .pad { padding: 0; }
-	#back-to-top { margin-left: -30px; }
+	#back-to-top { margin-left: -20px; width: 40px; height: 20px; }
+	#back-to-top i { font-size: 26px; }
 }
 
 @media only screen and (max-width: 479px) {
