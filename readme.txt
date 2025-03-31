@@ -1,7 +1,7 @@
 === Dashwall ===
 Contributors: alxmedia
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0
 Tags: blog, one-column, two-columns, right-sidebar, left-sidebar, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, custom-logo, custom-header, custom-background, news, entertainment, footer-widgets
@@ -82,6 +82,11 @@ Right column images
 6. https://stocksnap.io/photo/73MWYOFO4W - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
+
+= 1.0.1 - 2025-03-31 =
+* Fixed kirki deprecated notice
+* Fixed theme-toggle.js prefix
+* Fixed theme links in style.css
 
 = 1.0.0 - 2025-03-28 =
 * Initial release

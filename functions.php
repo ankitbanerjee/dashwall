@@ -633,3 +633,16 @@ function dashwall_skip_link_focus_fix() {
 	<?php
 }
 add_action( 'wp_print_footer_scripts', 'dashwall_skip_link_focus_fix' );
+
+
+/*  Kirki deprecated fix
+/* ------------------------------------ */
+function dashwall_kirki_config( $config ) {
+
+	if ( isset( $config['compiler'] ) ) {
+		unset( $config['compiler'] );
+	}
+
+	return $config;
+}
+add_filter( 'kirki/config', 'dashwall_kirki_config', 999 );
