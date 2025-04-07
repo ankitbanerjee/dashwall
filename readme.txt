@@ -19,7 +19,7 @@ Dashwall is a flexible blog and magazine theme with plenty of options. Optimized
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
