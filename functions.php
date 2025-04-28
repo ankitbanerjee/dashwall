@@ -86,6 +86,7 @@ if ( ! function_exists( 'dashwall_setup' ) ) {
 		register_nav_menus( array(
 			'mobile' 	=> esc_html__( 'Mobile', 'dashwall' ),
 			'header' 	=> esc_html__( 'Header', 'dashwall' ),
+			'footer' 	=> esc_html__( 'Footer', 'dashwall' ),
 		) );
 	}
 	
