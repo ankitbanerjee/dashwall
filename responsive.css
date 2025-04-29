@@ -152,20 +152,7 @@
 }
 /* responsive footer menu */
 @media (max-width: 600px) {
-    #nav-footer {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        padding: 10px;
-    }
-
-    #nav-footer li {
-        margin: 5px;
-    }
-
-    #nav-footer a {
-        display: inline-block;
-        padding: 8px 12px;
-        font-size: 14px;
-    }
+    #nav-footer { flex-wrap: wrap; justify-content: center; gap: 10px; padding: 10px; }
+    #nav-footer li { margin: 5px; }
+    #nav-footer a { display: inline-block; padding: 8px 12px; font-size: 14px; }
 }
